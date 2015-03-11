@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 960px;
+    /*background: url("cats.jpg") no-repeat 50% 50%;*/
+    overflow: hidden;
+}
+.contain{
+    /*margin: 50px 300px auto;*/
+    margin: 0;
+}
+.spe{
+    margin-top: -207px;
+}
+.contain .logo{
+    background: url("btn.png") no-repeat top left;
+    width: 380px;
+    height: 130px;
+    position: absolute;
+    top: 105px;
+    left: 480px;
+}
+.box{
+    width: 580px;
+    height: 330px;
+    /*background-color: #FFFFFF;*/
+    position: absolute;
+    top: 270px;
+    left: 385px
+}
+.contain .box .header{
+    height: 55px;
+    background-color: rgba(50,0,0,0.4);
+}
+.contain .box .header .menu{
+    width: 180px;
+    /*margin: 70px;*/
+    display: inline-block;
+    height: 30px;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 10px;
+}
+.contain .box .header .reg{
+    width: 87px;
+    font-size: 18px;
+    color: #FFFFFF;
+    display: inline-block;
+    text-align: right;
+    padding-top: 13px;
+    padding-bottom: 18px
+}
+.contain .box .header .boundary{
+    width: 5px;
+    height: 30px;
+    display: inline-block;
+    /* float: left; */
+    color: #ffffff;
+    border-left: 1px solid #ffffff;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.contain .box .header .pho{
+    width: 50px;
+    display: inline-block;
+    height: 40px;
+    vertical-align: middle;
+}
+.contain .box .header .song{
+    width: 24px;
+    height: 24px;
+    background: url("btn.png") no-repeat -474px -824px;
+    display: inline-block;
+
+}
+.contain .box .header b{
+    color: #FFFFFF;
+    font-size: 12px;
+    float: left;
+    margin-top: 3px;
+    font-weight: normal;
+}
+.contain .box .header a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
+    font-size: 18px;
+}
+.box .content{
+    height: 205px;
+    background-color: #FFFFFF;
+    position: relative;
+    padding: 30px;
+    overflow: hidden;
+
+}
+.box .content form{
+    width: 310px;
+    display: inline-block;
+    float: left;
+}
+/*.box .content .first{*/
+    /*position: absolute;*/
+    /*top: 20px;*/
+    /*left: 20px;*/
+/*}*/
+/*.box .content .second{*/
+    /*position: absolute;*/
+    /*top: 40px;*/
+    /*left: 20px;*/
+
+.box .content input{
+   width: 295px;
+    height: 30px;
+    float: left;
+
+}
+.box .content .btn{
+    margin-top: 13px;
+    background: url("btn.png") no-repeat -1px -461px;
+    border: none;
+    /* padding-bottom: 10px; */
+    height: 40px;
+    width: 300px;
+}
+.box .content .btn span{
+    color: #FFFFFF;
+    font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
+    font-size: 19px;
+}
+.box .content .code{
+    display: inline-block;
+    border: 1px solid #bbbbbb;
+    width: 13px;
+    height: 13px;
+    /*margin: 0;*/
+    margin-top: 10px;
+    margin-bottom: -2px;
+}
+.box .content .rem{
+    display: inline-block;
+    font-size: 13px;
+    margin: 0;
+    color: #a9a9a9;
+    font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
+}
+.box .content .forget{
+    display: inline-block;
+    font-size: 13px;
+    margin: 0;
+    color: #a9a9a9;
+    margin-left: 162px;
+    font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
+}
+.box .footer{
+    width: 520px;
+    background-color: #eeaa88;
+    height: 37px;
+    margin-top: 15px;
+    float: left;
+}
+.box .footer p{
+    font-family: "Hiragino Sans GB","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
+    color: #D05220;
+    font-size: 13px;
+    text-align: center;
+    margin: 0;
+    height: 31px;
+    padding-top: 8px;
+}
+.box .footer a{
+    color: #D05220;
+}
+.box .content .web{
+    background: url("btn.png") no-repeat -1px -601px;
+    float: right;
+    width: 160px;
+    height: 150px;
+}
+.box .content .web .one{
+    margin-top: 10px;
+}
+.box .content .web a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 50px;
+}
+.box .content .web .two{
+    margin-top: 33px;
+}
+.box .content .web .three{
+    margin-top: 33px;
+}

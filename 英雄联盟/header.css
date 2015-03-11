@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    height: 35px;
+    background: #ffffff;
+}
+.head .head-container{
+    width: 980px;
+    margin: 0 auto;
+}
+.head-container .title{
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px 0 527px;
+}
+.title li{
+    margin-right: 9px;
+    float: left;
+}
+.title li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #000;
+}
+.title .vertical{
+    height: 11px;
+    border-left: 1px solid #cccccc;
+    display: inline-block;
+}
+.head-container .share{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    margin: 0 0 0 -5px;
+    padding: 13px 0 0 0;
+}
+.share li{
+    margin-right: 5px;
+    float: left;
+}
+.share li span{
+    font-size: 13px;
+}

@@ -1,0 +1,91 @@
+body{
+     background: url("image/bg2.jpg") repeat;
+     min-width: 980px;
+ }
+.container{
+    width: auto;
+    height: 1820px;
+    background: url("image/background.jpg") no-repeat center top;
+    overflow: hidden;
+}
+.content{
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 118px;
+}
+.board-slogan {
+    width: 840px;
+    height: 308px;
+    margin-left: 94px;
+}
+.board-slogan .subtitle{
+    width: 357px;
+    height: 65px;
+    background: #5b9c0f;
+    border: 2px solid #d2f8ff;
+    border-radius: 35px;
+    text-align: center;
+}
+.board-slogan .subtitle span{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    font-family: 微软雅黑;
+    line-height: 60px;
+    height: 60px;
+}
+.board-slogan .slogan{
+    margin-top: 5px;
+}
+.board-slogan .slogan-img{
+    position: absolute;
+    top: 158px;
+    left: 792px;
+}
+.content .explain{
+    width: 809px;
+    /*text-align: center;*/
+    margin: 80px 0 0 106px;
+}
+.content .explain-text{
+    color: #90c3d8;
+    font-size: 18px;
+    font-family: 微软雅黑;
+}
+.content .explain span{
+    color: #fcf634;
+}
+.content .suit{
+    width: 561px;
+    position: relative;
+}
+.content .suit .img-one{
+    margin-left: 67px;
+}
+.content .suit .get-button{
+    width: 222px;
+    height: 74px;
+    background: #fbf42c;
+    position: absolute;
+    top: 11px;
+    left: 380px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 3px #153e53;
+    text-align: center;
+}
+.content .suit .get-button .text{
+    color: #074c61;
+    font-size: 26px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    font-family: 微软雅黑;
+    font-weight: 500;
+}
+.suit .get-button p{
+    color: #ace2f8;
+    font-family: 微软雅黑;
+    font-size: 18px;
+
+}

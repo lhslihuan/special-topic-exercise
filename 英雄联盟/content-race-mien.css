@@ -1,0 +1,120 @@
+.mien{
+    text-align: left;
+    padding-left: 10px;
+    margin-top: -9px;
+    height: 460px;
+}
+.mien .mien-video{
+    width: 550px;
+    float: left;
+}
+.marked{
+    color: #ff9c01;
+    font-family: 微软雅黑;
+    margin-top: 11px;
+}
+.mien .mien-video .menu{
+    list-style: none;
+    width: 542px;
+    height: 31px;
+    background: #232324;
+    margin-left: 4px;
+    padding: 0;
+}
+.menu li{
+    color: #7a7a7b;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 36px;
+}
+.mien li:hover{
+    background: #7d7d7e;
+    color: #232324;
+}
+.mien .mien-video .video{
+    list-style: none;
+    width: 542px;
+    height: 92px;
+    padding: 0;
+    margin-left: 4px;
+    margin-bottom: 0;
+}
+.mien-video .video li{
+    width: 157px;
+    height: 96px;
+    border: 3px solid #ffffff;
+    background: url("image/lol.jpg") no-repeat;
+    float: left;
+    overflow: hidden;
+}
+.mien-video .video li.firstLi{
+    margin: 0 24px 0 5px;
+}
+.mien-video .video li.secondLi{
+    margin-right: 24px;
+}
+.mien-video .video-text{
+    list-style: none;
+    width: 540px;
+    margin: 10px 0 0 0;
+}
+.video-text li{
+    width: 160px;
+    float: left;
+    margin-right: 10px;
+    height: 60px;
+}
+.video-text li a{
+    text-decoration: none;
+    color: #bdbdbd;
+    font-size: 11px;
+}
+.video-text li a.center{
+
+}
+.video-text li:hover{
+    background: #262933;
+}
+.video-text li a:hover{
+    color: #e81f0e;
+    text-decoration: underline;
+}
+.video-text li.alignFirst{
+    margin-left: -30px;
+}
+.video-text li.alignSecond{
+    margin-left: 20px;
+}
+.video-text li.alignThird{
+    margin-left: 15px;
+}
+.mien .mien-famous{
+    float: left;
+    margin-left: 18px;
+}
+.mien-famous .famous-person{
+    width: 390px;
+
+}
+.famous-person .person{
+    list-style: none;
+    width: 400px;
+}
+.famous-person .person .img{
+    float: left;
+     background: url("image/person.jpg") no-repeat;
+    /*background: #ff9c01;*/
+    width: 108px;
+    height: 135px;
+    margin: 5px 55px 0 -35px;
+}
+.famous-person .person .name{
+    font-size: 12px;
+    color: #bdbdbd;
+    float: left;
+    margin: 13px 55px 22px -30px;
+}
+.famous-person .person .name:hover{
+    background: #292c35;
+}

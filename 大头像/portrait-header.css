@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 35px;
+    background: #fff;
+}
+.header_container{
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+}
+.logo{
+    width: 91px;
+    height: 35px;
+    display: inline-block;
+}
+.login{
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: 672px;
+    margin: 8px 0 0 0;
+    padding: 0;
+}
+.login li{
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    margin-right: 10px;
+}
+.vertical{
+    display: inline-block;
+    height: 11px;
+    border-left: 1px solid #ccc;
+    margin-right: 9px;
+}
+.share{
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    left: 860px;
+}
+.share span{
+    font-size: 13px;
+}
+.web{
+    list-style: none;
+    height: 16px;
+    margin: 8px 0 0 0;
+    padding: 0;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 827px;
+}
+.web li{
+    float: left;
+}
+.new{
+    margin-right: 6px;
+}
+/*.web li img{*/
+    /*margin-right: 2px;*/
+/*}*/
+.web li span{
+    font-size: 13px;
+    margin-right: 7px;
+}

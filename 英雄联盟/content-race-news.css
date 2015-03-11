@@ -1,0 +1,65 @@
+.content .main-content .races{
+    width: 980px;
+    height: 300px;
+}
+.content .main-content .races .racesPrize{
+    width: 600px;
+    height: 280px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.content .main-content .races .racesPrize .prize{
+    margin-bottom: 10px;
+}
+.content .main-content .racesNews{
+    width: 360px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.content .main-content .racesNews .reg{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+    height: 60px;
+}
+.races .racesNews li{
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    width: 160px;
+    cursor: pointer;
+}
+.races .racesNews .font{
+    font-size: 18px;
+    font-family: 微软雅黑;
+    color: #082330;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+}
+.races .racesNews .regOne{
+    left: 44px;
+}
+.races .racesNews .regTwo{
+    left: 27px;
+}
+.races .racesNews .news{
+    height: 200px;
+    text-align: left;
+}
+.races .racesNews .news .events-news{
+    color: #f59604;
+    font-family: 微软雅黑;
+    margin-top: 9px;
+    margin-bottom: 8px;
+}
+.news p{
+    color: #bdbdbd;
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+.news p span{
+    float: right;
+    margin-right: 16px;
+}

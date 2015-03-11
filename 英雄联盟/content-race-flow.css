@@ -1,0 +1,75 @@
+.main-content .flow{
+    height: 325px;
+}
+.flow .raceFlow {
+    text-align: left;
+    margin-left: 10px;
+    color: #ff9c01;
+    font-family: 微软雅黑;
+    margin-top: 0;
+}
+.flow .raceFlow h3{
+    display: inline-block;
+    margin: 0 15px 0 0;
+}
+.flow .raceFlow a{
+    color: #8c8d8d;
+    font-family: 微软雅黑;
+    text-decoration: none;
+    font-size: 15px;
+}
+.flow .system{
+    height: 127px;
+    background: url("image/process.png") no-repeat center;
+    margin-top: 33px;
+}
+.flow .axis{
+    height: 60px;
+    margin-top: -30px;
+    background: url("image/axis.png") no-repeat center;
+}
+.flow .axis .process{
+    list-style: none;
+}
+.flow .axis .process li{
+    float: left;
+    margin: 19px 74px 0 21px;
+    color: #01ffc7;
+    font-family: 微软雅黑;
+    font-size: 17px;
+
+}
+.flow .axis .process li .scene-three{
+    margin-left: 8px;
+}
+.flow .axis .process li .scene-four{
+    margin-left: 8px;
+}
+.flow .axis .process li .scene-five{
+    margin-left: 14px;
+}
+.flow .axis .process li .scene-six{
+    margin-left: 24px;
+}
+.flow .process-time{
+    list-style: none;
+    text-align: left;
+    width: 980px;
+    height: 30px;
+    margin: 0 auto;
+}
+.flow .process-time li{
+    color: #8c8d8d;
+    float: left;
+    margin-right: 77px;
+    margin-top: 3px;
+}
+.flow .process-time span{
+    font-family: 微软雅黑;
+    font-size: 19px;
+    font-weight: bold;
+    color: #ff9c01;
+}
+.flow .process-time .last{
+    margin-left: 14px;
+}

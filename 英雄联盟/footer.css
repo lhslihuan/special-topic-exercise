@@ -1,0 +1,20 @@
+.footer{
+    width: 980px;
+    margin: 15px auto;
+    height: 115px;
+}
+.footer .tips{
+    list-style: none;
+    width: 980px;
+    height: 115px;
+    padding: 0;
+}
+.footer .tips .piece{
+    margin-right: 30px;
+}
+.footer .tips li{
+    width: 306px;
+    height: 114px;
+    background: #262932;
+    float: left;
+}

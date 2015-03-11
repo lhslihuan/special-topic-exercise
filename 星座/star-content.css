@@ -1,0 +1,16 @@
+body{
+    min-width: 980px;
+    margin: 0 auto;
+}
+.content{
+    background: url("img/bg.jpg") no-repeat center top;
+    height: 1820px;
+}
+.content .slogan{
+    background: url("img/slogan.png") no-repeat center;
+    height: 646px;
+}
+.content .slogan .main-star{
+    background: url("img/mainstars.png") no-repeat center;
+    height: 261px;
+}

@@ -1,0 +1,87 @@
+body{
+    min-width: 980px;
+}
+.content{
+    height: 2290px;
+    /*background: url("image/bg.jpg") repeat;*/
+    background: url("image/background.jpg") no-repeat center top;
+    text-align: center;
+}
+.captain .captain-dream{
+    height: 40px;
+    width: 980px;
+    margin: 0 auto;
+    text-align: left;
+}
+.captain .captain-dream .dream-img{
+    text-align: left;
+    width: 40px;
+    height: 40px;
+}
+.captain .captain-dream .dream-text{
+    width: 40px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+}
+.captain .captain-img{
+    margin-top: 185px;
+
+}
+.content .remind{
+    height: 30px;
+    width: 980px;
+    margin: 0 auto;
+    margin-top: -70px;
+}
+.content .remind p{
+    font-family: 微软雅黑;
+    font-size: 20px;
+    color: #deb920;
+    font-weight: bold;
+    text-align: right;
+}
+.content .remind p img{
+    width: 18px;
+    vertical-align: -4px;
+    margin-right: 5px;
+}
+.content .remind a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.content .main-content-border{
+    height: 1350px;
+    width: 978px;
+    margin: 3px auto;
+    border: 1px solid #0e0d0b;
+}
+.content .main-content{
+    height: 1350px;
+    width: 976px;
+    margin: 0 auto;
+    background: #272b34;
+    border: 1px solid #313747;
+}
+.hint{
+    border-left: 3px solid #f59604;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.allRace {
+    color: #ff9c01;
+    font-family: 微软雅黑;
+    font-weight: 500;
+}
+.line{
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 13px;
+    border: 0;
+    border-top: 2px solid #212129;
+    height: 2px;
+}
+

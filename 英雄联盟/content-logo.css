@@ -1,0 +1,30 @@
+.product{
+    text-align: left;
+    padding-left: 10px;
+}
+.product .product-logo{
+
+}
+.product .product-logo .logo{
+    list-style: none;
+    height: 75px;
+    margin-left: 13px;
+    padding: 0;
+}
+.product .product-logo .logo-names{
+    height: 30px;
+}
+.product .product-logo .logo-name{
+    width: 70px;
+    margin-right: 25px;
+    height: 30px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.logo li{
+    width: 55px;
+    height: 68px;
+    margin-right: 40px;
+    float: left;
+}
